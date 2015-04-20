@@ -1,4 +1,3 @@
-
 " Show line numbers and relative line numbers
 :set number	" Show line number
 :set numberwidth=6	" Show number line width
