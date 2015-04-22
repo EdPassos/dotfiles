@@ -45,7 +45,7 @@ CASE_SENSITIVE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ruby rails rake)
+plugins=(git ruby rails rake capistrano tmux)
 
 # User configuration
 
@@ -81,4 +81,15 @@ source $ZSH/oh-my-zsh.sh
 
 DEFAULT_USER="ed"
 
+export TERM="xterm-256color" # 256 color terminal yay!!
+
+# if you do a 'rm *', Zsh will give you a sanity check!
+setopt RM_STAR_WAIT
+
+# allows you to type Bash style comments on your command line
+# good 'ol Bash
+setopt interactivecomments
+
+# Zsh has a spelling corrector
+setopt CORRECT
 
