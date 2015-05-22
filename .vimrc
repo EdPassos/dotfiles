@@ -7,6 +7,7 @@ call vundle#rc()
 " Bundles
 Plugin 'gmarik/vundle'
 Plugin 'wincent/command-t'
+Plugin 'kchmck/vim-coffee-script'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
