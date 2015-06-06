@@ -8,6 +8,8 @@ call vundle#rc()
 Plugin 'gmarik/vundle'
 Plugin 'wincent/command-t'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'bling/vim-airline'
+Plugin 'vimwiki/vimwiki'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -43,3 +45,9 @@ set softtabstop=4   " Sets the number of columns for a TAB
 set smarttab
 
 let mapleader=","
+
+set laststatus=2
+let g:airline_powerline_fonts = 1
+
+" Command-T ignore tmp folder
+:set wildignore+=tmp/*
