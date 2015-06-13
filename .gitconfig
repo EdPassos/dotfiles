@@ -1,0 +1,10 @@
+[color]
+	ui = true
+[user]
+	name = EdPassos
+	email = ed.passos@gmail.com
+[core]
+	editor = vi
+	excludefile = /home/ed/dotfiles/.gitignore
+[push]
+	default = simple
