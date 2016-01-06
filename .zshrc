@@ -93,3 +93,6 @@ setopt interactivecomments
 # Zsh has a spelling corrector
 setopt CORRECT
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
