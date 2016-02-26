@@ -52,6 +52,5 @@ let g:airline_powerline_fonts = 1
 :set wildignore+=tmp/*
 
 " Nite commands
-let @r = 'o<div class="row">
-</div>k00$jkhhhhh'
-let @c = 'odiv€kb€kb€kb<div class=:€kb"columns">o€kbo</div>kwwe'
+let @r = 'o<div class="row">o</div>k$hh'
+let @c = 'o<div class="columns">o</div>kwwe'
