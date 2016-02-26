@@ -22,7 +22,6 @@ set term=screen-256color
 set list
 set listchars=tab:â–¸\ ,eol:Â¬
 
-
 " Show line numbers and relative line numbers
 set number	" Show line number
 set numberwidth=6	" Show number line width
@@ -53,5 +52,6 @@ let g:airline_powerline_fonts = 1
 :set wildignore+=tmp/*
 
 " Nite commands
-let @r = 'o<div class="row"></div>k00$jkhhhhh'
-let @c = 'odiv€kb€kb€kb<div class=:€kb"columns">o€kbo</div>kwwe'
+let @r = 'o<div class="row">
+</div>k00$jkhhhhh'
+let @c = 'odivâ‚¬kbâ‚¬kbâ‚¬kb<div class=:â‚¬kb"columns">oâ‚¬kbo</div>kwwe'
