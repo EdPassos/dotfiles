@@ -1,4 +1,4 @@
 
 brew "zsh"
 brew "tmux"
-brew "nvim"
+brew "neovim"
