@@ -8,4 +8,4 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 mkdir ~/.config
 cp -rf nvim ~/.config/.
 cp -rf tmux ~/.config/.
-cp zsh/.zshrc ~/.zshrc
+cp zsh/zshrc ~/.zshrc
